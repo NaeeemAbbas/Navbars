@@ -1,1 +1,10 @@
 @import "tailwindcss";
+
+body {
+  font-family: "Poppins", sans-serif !important;
+}
+
+.bg-dots { /* This is the class name you used */
+     background-image: radial-gradient(#e5e7eb, transparent 1px); /* light gray dots */
+     background-size: 8px 8px; /* Adjust dot size and spacing */
+     }
