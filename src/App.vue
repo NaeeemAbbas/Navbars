@@ -61,7 +61,7 @@ import Globe from './components/Navbars/pages/globe.vue';
      <PricingCards/>
      <Carousel/>
      <Faqs/>
-    <div class="relative min-h-screen flex flex-col lg:flex-row items-center justify-center bg-[#F8F9FA] p-4 sm:p-8">
+    <div class="relative min-h-screen  flex flex-col lg:flex-row items-center justify-center bg-[#F8F9FA] p-4 sm:p-8">
     <div class="w-full lg:w-1/2 h-96 lg:h-screen-75 flex justify-center items-center mb-8 lg:mb-0 lg:mr-8">
       <Globe />
     </div>

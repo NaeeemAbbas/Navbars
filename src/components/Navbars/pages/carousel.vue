@@ -213,7 +213,7 @@ export default {
   /* Limit text to a certain number of lines */
   display: -webkit-box;
   -webkit-box-orient: vertical;
-  -webkit-line-clamp: 5; /* Adjust to control the number of visible lines */
+  -webkit-line-clamp: 5; 
   overflow: hidden;
   text-overflow: ellipsis;
 }
