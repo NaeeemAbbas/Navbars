@@ -28,7 +28,7 @@ import Globe from './components/Navbars/pages/globe.vue';
 
 </script>
 <template>
-<!-- <Dropdown/> -->
+<!-- <Dropdown/>
 <!-- <GlassBar/> -->
 <!-- <Mobile/> -->
 <!-- <ProfileBar/> -->

@@ -62,7 +62,7 @@
                   </div>
                 </div>
                  <div class="flex items-center">
-                  <img src="/src//assets/img2.jpg" alt="Arlene McCoy" class="w-10 h-10 rounded-full mr-3" />
+                  <img :src="img1" alt="Arlene McCoy" class="w-10 h-10 rounded-full mr-3" />
                   <div>
                     <p class="font-semibold text-gray-800">Arlene McCoy</p>
                     <p class="text-sm text-gray-500">Awesome!</p>
@@ -126,6 +126,7 @@
 
 <script setup>
 import { ref } from 'vue';
+import img1 from '@/assets/img1.jpg'
 
 // Data for the inlined Message Box Overlay
 const messages = ref([

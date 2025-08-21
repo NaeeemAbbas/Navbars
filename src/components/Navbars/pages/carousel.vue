@@ -101,43 +101,45 @@
 </template>
 
 <script>
+import img2 from '../../../assets/img2.jpg'
+import img1 from '../../../assets/img1.jpg'
 export default {
   name: 'AutoScrollingTestimonials',
   data() {
     const baseReviews = [
       {
         name: 'Michael Brown',
-        avatar: '/src/assets/img1.jpg',
+        avatar:img1,
         feedback: 'Capable has truly transformed how I connect with people. The interface is intuitive, and I appreciate the emphasis on genuine interactions. It\'s more than just an app; it\'s a community where I feel understood and can easily share my experiences. Highly recommended!',
         stars: 5,
       },
       {
         name: 'Emily Johnson',
-        avatar: '/src/assets/img1.jpg',
+        avatar: img1,
         feedback: 'I was hesitant at first, but Capable exceeded all my expectations. Finding like-minded individuals has never been easier, and the events feature is a game-changer. I\'ve attended several virtual meetups and made some incredible friends.',
         stars: 5,
       },
       {
         name: 'John Doe',
-        avatar: '/src/assets/img1.jpg',
+        avatar: img1,
         feedback: 'The design is sleek, and the app is incredibly responsive. What I love most about Capable is its commitment to user privacy and safety. I feel secure while engaging with new people.',
         stars: 5,
       },
       {
         name: 'James Taylor',
-        avatar: '/src/assets/img1.jpg',
+        avatar: img1,
         feedback: 'The community support and engaging multimedia sharing on Capable have made it my favorite platform for connecting and sharing. It\'s dynamic and always something new to explore.',
         stars: 5,
       },
       {
         name: 'Laura Martinez',
-        avatar: '/src/assets/img.jpg',
+        avatar: img2,
         feedback: 'I\'m amazed at how Capable\'s advanced privacy controls and customizable features have enhanced my online social experience. Truly innovative and user-friendly! This is a longer feedback to test the "Read More" functionality. It should definitely exceed the line limit and trigger the button. I hope it works well for demonstration.',
         stars: 5,
       },
       {
         name: 'David Wilson',
-        avatar: '/src/assets/img1.jpg',
+        avatar: img1,
         feedback: 'Capable provides a seamless way to meet new people and discover shared interests. The app is fast, reliable, and genuinely helps foster new relationships in a positive environment.',
         stars: 5,
       },

@@ -1,11 +1,11 @@
 <template>
-  <footer class="bg-[#2b1858] text-gray-300 py-12 relative">
+  <footer class="bg-[#9810FA] text-gray-300 py-12 relative">
     <div class="container mx-auto px-4">
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 border-b border-gray-700 pb-10 mb-8">
 
         <div class="flex flex-col items-center md:items-start text-center md:text-left">
           <div class="flex items-center justify-center">
-            <img src="/src/assets/logo.png" alt="SATA Technologies Logo" class="w-10 sm:w-14 mb-4">
+            <!-- <img :src="logo" alt="SATA Technologies Logo" class="w-10 sm:w-14 mb-4"> -->
             <h1 class="text-white text-3xl font-bold">
               Xpert Lms
             </h1>
@@ -86,6 +86,7 @@
 </template>
 
 <script>
+// import logo from '../../../assets/img1.jpg'
 export default {
   name: 'AppFooter',
   data() {
